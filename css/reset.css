@@ -46,3 +46,43 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+    text-decoration:none;
+    color:#1C5953;
+}
+/*custom default below*/
+@font-face {
+  font-family:cvFont;
+  src:local(Meiryo),local(LiHei Pro),local(Heiti TC),local("微軟正黑體");
+}
+@font-face {
+  font-family:cvFont; 
+  unicode-range: U+00-024F;  
+  src:local(Verdana),local(Helvetica),local(Arial);     
+}
+@font-face {
+  font-family:cvFont;            
+  unicode-range: U+3040-30FF;           
+  src:local(Hiragino Kaku Gothic Pro),local(MS Gothic),local(Meiryo);                 
+}
+
+body {
+  background:#fff;    
+  font-family:cvFont,sans-serif;
+  color:#1C5953;
+}
+
+header{
+    width:100%;
+    background:#faf9f5;/*#354AED;*/
+}
+#navList{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+}
+.liBox{
+    flex:0 1 80px;
+    text-align: center;
+}
