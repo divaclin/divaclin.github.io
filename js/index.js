@@ -1,11 +1,4 @@
-//Initialize Firebase
-var config = {
-     apiKey: "AIzaSyDuGktFJMyjBjgexGI7s4MDXFC76B5pAh0",
-     authDomain: "divac-cv.firebaseapp.com",
-     databaseURL: "https://divac-cv.firebaseio.com",
-     storageBucket: "divac-cv.appspot.com",
-    };
-firebase.initializeApp(config);
+
 
 (function(){
     Router = (function(){
